@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yale School of Art</title>
+    <link rel="stylesheet" href="mstyles.css">
+</head>
+<body>
+
+    <!-- Header and menu -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Yale School of Art</h1>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#exhibits">Exhibitions</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#social">Social</a></li>
+                    <!-- Dropdown Section -->
+                    <li class="dropdown">
+                        <a href="#more">More</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#membership">Membership</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Head image -->
+        <section id="home" class="hero">
+            <img src="c:\Users\phillips.aj\OneDrive - Oundle School\Academic\Comp Sci\HTMLpractice\yale.jpg " alt="Museum Image" class="hero-image">
+            <div class="hero-text">
+                <h2>Yale School of Art</h2>
+                <p>1156 Chapel Street, POB 208339
+                    New Haven, Connecticut</p>
+                <a href="#exhibits" class="btn">Explore Exhibits</a>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about-section">
+            <div class = "box">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>The Yale School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.</p>
+                <br>
+                <p>The graduate student’s primary educational experience at Yale is centered on the student’s own studio activity. Supporting this enterprise are the experience, knowledge, and skills gained from rigorous, structured courses such as drawing, filmmaking, the relativity of color, and the rich academic offerings found throughout Yale. Each student is routinely exposed to many aesthetic positions through encounters with faculty members and visitors. The School is devoted not only to the refinement of visual skills, but also to the cultivation of the mind. Students must bring creative force and imagination to their own development, for these qualities cannot be taught—they can only be stimulated and appreciated.</p>
+                <p>The School of Art offers an undergraduate art major for students in Yale College (see the bulletin Yale College Programs of Study). In addition, the School’s courses are open to students in the Graduate School of Arts and Sciences and other professional schools of the University, and School of Art students may enroll in elective courses in the Graduate School and other professional schools as well as in the College with permission.</p>
+            </div>
+            </div>
+        </section>
+
+        <!-- Exhibits  -->
+        <section id="exhibits" class="exhibits-section">
+            <div class = "box">
+            <div class="container">
+                <h2>Exhibits</h2>
+                <p>The School of Art galleries in Green Hall provide a year-round forum for the exhibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program.</p>
+                <p>During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice. </p>
+                <br>
+                <div class="exhibit-grid">
+                    <div class="exhibit-item">
+                        <img src=" c:\Users\phillips.aj\OneDrive - Oundle School\Academic\Comp Sci\HTMLpractice\spiral.jpg" alt="Exhibit 1">
+                        <h3>Upward Spiral</h3>
+                        <p>Second-Year MFA Exhibition</p>
+                    </div>
+                    <div class="exhibit-item">
+                        <img src="c:\Users\phillips.aj\OneDrive - Oundle School\Academic\Comp Sci\HTMLpractice\gallary.png " alt="Exhibit 2">
+                        <h3>Painting</h3>
+                        <p>Undergraduate Exhibition</p>
+                    </div>
+                    <div class="exhibit-item ">
+                        <img src=" c:\Users\phillips.aj\OneDrive - Oundle School\Academic\Comp Sci\HTMLpractice\sculptor.png" alt="Exhibit 3">
+                        <h3>sculpting</h3>
+                        <p>First-Year MFA Exhibition</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+
+        <!-- calendar-->
+        <section id="calendar">
+            <div class = "box">
+                <div class="container">
+                <h2>Calendar</h2>
+                <div class="calendar">
+                    <div class= "cal">
+                    <header class="calendar__header">
+                      <div class="calendar__month"></div>
+                      <div class="calendar__year"></div>
+                    </header>
+                    <div class="calendar__grid">
+                      <div class="calendar__day-names">
+                        <span class="calendar__day-name">S</span>
+                        <span class="calendar__day-name">M</span>
+                        <span class="calendar__day-name">T</span>
+                        <span class="calendar__day-name">W</span>
+                        <span class="calendar__day-name">T</span>
+                        <span class="calendar__day-name">F</span>
+                        <span class="calendar__day-name">S</span>
+                      </div>
+                      <div class="calendar__day-numbers"></div>
+                    </div>
+                  </div>
+                  <script src="script.js"></script>
+                </div>
+                <div class="side">
+                    <br>
+                    <p>This website exists as an ongoing collaborative experiment in digital publishing and information sharing. Because this website functions as a wiki, all members of the School of Art community—graduate students, faculty, staff, and alums—have the ability to add new content and pages, and to edit most of the site’s existing content.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <section id= "social">
+        <div class="container footer-content">
+            <p>&copy;  06520-8339</p>
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+        </section>
+    </footer>
+</body>
+</html>
+
