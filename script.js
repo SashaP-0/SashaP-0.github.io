@@ -33,9 +33,4 @@ for (i = 1; i <= daysInMonth; i++) {
 	}
 }
 
-window.onclick = function(event) {
-    var modal = document.getElementById('id01');
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+
