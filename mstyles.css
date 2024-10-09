@@ -31,21 +31,38 @@ header {
 }
 
 .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: flex-end;
-    list-style: none;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav-bar ul li {
-    margin-left: 15px;
-    position: relative; 
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .nav-bar ul li a {
-    color: white;
     text-decoration: none;
-    padding: 8px 15px;
-    font-size: 16px; 
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.nav-bar ul li.login button {
+    background-color: #4CAF50; /* Customize button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.nav-bar ul li.login button:hover {
+    background-color: #45a049; /* Hover effect */
 }
 
 .nav-bar ul li a:hover {
