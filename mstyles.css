@@ -471,11 +471,12 @@ footer {
         font-weight: bold;
       }
       
-      .close:hover,
-      .close:focus {
-        color: red;https://github.com/SashaP-0/SashaP-0.github.io/blob/main/mstyles.css#L11C16
+    .close:hover,
+    .close:focus {
+        color: red;
         cursor: pointer;
-      }
+    }
+
       
       /* Add Zoom Animation */
       .animate {
