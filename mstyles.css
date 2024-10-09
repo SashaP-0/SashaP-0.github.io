@@ -383,6 +383,18 @@ footer {
             align-items: center ;      
         }
         
+    .calendar__day-numbers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .calendar__day-number {
+        width: calc(100% / 7); /* Ensure each day fits into a grid of 7 days */
+        padding: 10px 0;
+        text-align: center;
+    }
+        
 }
 
 .login{
