@@ -52,7 +52,7 @@ header {
 }
 
 .nav-bar ul li.login button {
-    background-color: #750E21; /* Customize button color */
+    background-color: #495C83; /* Customize button color */
     color: white;
     border: none;
     padding: 10px 15px;
@@ -62,7 +62,7 @@ header {
 }
 
 .nav-bar ul li.login button:hover {
-    background-color: #600919; /* Hover effect */
+    background-color: #394969; /* Hover effect */
 }
 
 .nav-bar ul li a:hover {
