@@ -35,7 +35,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between; /* Adjust this to spread items across */
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -44,23 +44,20 @@ header {
     margin-right: 20px;
 }
 
-.nav-bar ul li.login {
-    margin-left: auto; /* Pushes the login button to the far right */
-}
-
-.nav-bar ul li a,
-.nav-bar ul li.login button {
+.nav-bar ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     padding: 10px 15px;
-    background: none;
-    border: none;
-    cursor: pointer;
 }
 
 .nav-bar ul li.login button {
     background-color: #495C83; /* Customize button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
     border-radius: 5px;
 }
 
